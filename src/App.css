@@ -1,0 +1,30 @@
+/* Untuk membuat border bulat */
+/* .cke_editor {
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+
+/* Untuk menyesuaikan toolbar di bagian bawah */
+/*
+.cke_bottom {
+  border-top: 1px solid #ddd;
+  padding: 5px;
+  background-color: #f4f4f4;
+} */
+/* Membuat border bulat dan mengatur overflow */
+.ckeditor-container .ck-editor__main {
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+/* Pindahkan toolbar ke bawah editor */
+.ckeditor-container .ck-toolbar {
+  order: 2; /* Memindahkan toolbar ke bawah */
+  border-top: 1px solid #ddd;
+  padding-top: 5px;
+  margin-top: 10px;
+  background-color: #f4f4f4;
+  border-radius: 0 0 15px 15px;
+}
